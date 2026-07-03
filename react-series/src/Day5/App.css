@@ -1,0 +1,187 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#eef2ff,#f8fafc);
+    color:#1f2937;
+}
+
+.hero{
+    text-align:center;
+    padding:100px 20px;
+    background:linear-gradient(135deg,#4f46e5,#7c3aed);
+    color:white;
+}
+
+.hero h1{
+    font-size:52px;
+    margin-bottom:20px;
+}
+
+.hero p{
+    font-size:20px;
+    max-width:650px;
+    margin:0 auto 35px;
+    line-height:1.6;
+}
+
+.hero button{
+    padding:15px 35px;
+    font-size:18px;
+    border:none;
+    border-radius:50px;
+    background:#facc15;
+    color:#1f2937;
+    cursor:pointer;
+    transition:.4s;
+    font-weight:bold;
+}
+
+.hero button:hover{
+    transform:translateY(-6px) scale(1.05);
+    box-shadow:0 12px 30px rgba(0,0,0,.3);
+}
+
+.features{
+    padding:80px 10%;
+    text-align:center;
+}
+
+.features h2{
+    font-size:42px;
+    margin-bottom:40px;
+    color:#4338ca;
+}
+
+.featureBox{
+    background:white;
+    margin:25px auto;
+    max-width:420px;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 10px 25px rgba(0,0,0,.1);
+    transition:.4s;
+}
+
+.featureBox h3{
+    color:#4f46e5;
+    margin-bottom:15px;
+}
+
+.featureBox:hover{
+    transform:translateY(-10px);
+    background:#4f46e5;
+    color:white;
+}
+
+.featureBox:hover h3{
+    color:#facc15;
+}
+
+.testimonials{
+    background:#ede9fe;
+    padding:80px 10%;
+    text-align:center;
+}
+
+.testimonials h2{
+    font-size:42px;
+    margin-bottom:40px;
+    color:#5b21b6;
+}
+
+.review{
+    background:white;
+    max-width:450px;
+    margin:25px auto;
+    padding:30px;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,.1);
+    transition:.4s;
+}
+
+.review:hover{
+    transform:scale(1.05);
+    background:#7c3aed;
+    color:white;
+}
+
+.review h4{
+    margin-top:15px;
+    color:#4f46e5;
+}
+
+.review:hover h4{
+    color:#facc15;
+}
+
+.cta{
+    text-align:center;
+    padding:90px 20px;
+    background:linear-gradient(135deg,#2563eb,#7c3aed);
+    color:white;
+}
+
+.cta h2{
+    font-size:44px;
+    margin-bottom:20px;
+}
+
+.cta p{
+    font-size:18px;
+    margin-bottom:30px;
+}
+
+.cta button{
+    padding:15px 40px;
+    font-size:18px;
+    border:none;
+    border-radius:50px;
+    background:#facc15;
+    color:#111827;
+    cursor:pointer;
+    transition:.4s;
+    font-weight:bold;
+}
+
+.cta button:hover{
+    transform:scale(1.08);
+    box-shadow:0 12px 30px rgba(0,0,0,.3);
+}
+
+@media(max-width:768px){
+
+.hero{
+    padding:70px 20px;
+}
+
+.hero h1{
+    font-size:36px;
+}
+
+.hero p{
+    font-size:17px;
+}
+
+.features h2,
+.testimonials h2,
+.cta h2{
+    font-size:32px;
+}
+
+.featureBox,
+.review{
+    width:95%;
+}
+
+.hero button,
+.cta button{
+    width:100%;
+    max-width:280px;
+}
+
+}

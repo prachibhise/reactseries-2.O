@@ -10,23 +10,19 @@ function FAQ() {
     },
     {
       question: "2+3?",
-      answer:
-        "5"
+      answer: "5"
     },
     {
       question: "What is Capital of INDIA?",
-      answer:
-        "Delhi"
+      answer: "Delhi"
     },
     {
       question: "What is name of Our Galaxy?",
-      answer:
-        "Milky Way"
+      answer: "Milky Way"
     },
     {
       question: "Why Age Grow?",
-      answer:
-        "Because Time goes."
+      answer: "Because Time goes."
     }
   ];
 
