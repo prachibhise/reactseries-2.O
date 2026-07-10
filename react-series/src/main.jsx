@@ -10,8 +10,9 @@ import "./index.css";
 // import Day7 from "./Day7/App";
 // import Day8 from "./Day8/App";
 // import Day9 from "./Day9/App";
-import Day10 from "./Day10/App";
+// import Day10 from "./Day10/App";
+import Day11 from "./Day11/App";
 createRoot(document.getElementById("root")).render(
-  <Day10/>
+  <Day11/>
   
 );
