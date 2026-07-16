@@ -29,10 +29,10 @@ import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router-dom";
 import "./index.css";
 // import Day1 from "./Week7/Day1/App";
-import Day2 from "./Week7/Day2/App.jsx";
-
+// import Day2 from "./Week7/Day2/App.jsx";
+import Day3 from "./Week7/Day3/App.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
-    <Day2 />
+    <Day3 />
   </BrowserRouter>
 );
